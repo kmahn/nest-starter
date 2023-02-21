@@ -1,0 +1,83 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@leaf/auth": [
+        "libs/auth/src"
+      ],
+      "@leaf/auth/*": [
+        "libs/auth/src/*"
+      ],
+      "@leaf/config": [
+        "libs/config/src"
+      ],
+      "@leaf/config/*": [
+        "libs/config/src/*"
+      ],
+      "@leaf/logger": [
+        "libs/logger/src"
+      ],
+      "@leaf/logger/*": [
+        "libs/logger/src/*"
+      ],
+      "@leaf/types": [
+        "libs/types/src"
+      ],
+      "@leaf/types/*": [
+        "libs/types/src/*"
+      ],
+      "@leaf/mongo": [
+        "libs/mongo/src"
+      ],
+      "@leaf/mongo/*": [
+        "libs/mongo/src/*"
+      ],
+      "@leaf/errors": [
+        "libs/errors/src"
+      ],
+      "@leaf/errors/*": [
+        "libs/errors/src/*"
+      ],
+      "@leaf/swagger": [
+        "libs/swagger/src"
+      ],
+      "@leaf/swagger/*": [
+        "libs/swagger/src/*"
+      ],
+      "@leaf/email": [
+        "libs/email/src"
+      ],
+      "@leaf/email/*": [
+        "libs/email/src/*"
+      ],
+      "@leaf/sms": [
+        "libs/sms/src"
+      ],
+      "@leaf/sms/*": [
+        "libs/sms/src/*"
+      ],
+      "@leaf/repository": [
+        "libs/repository/src"
+      ],
+      "@leaf/repository/*": [
+        "libs/repository/src/*"
+      ]
+    }
+  }
+}

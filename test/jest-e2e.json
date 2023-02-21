@@ -1,0 +1,35 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@leaf/auth/(.*)": "<rootDir>/../libs/auth/src/$1",
+    "@leaf/auth": "<rootDir>/../libs/auth/src",
+    "@leaf/config/(.*)": "<rootDir>/../libs/config/src/$1",
+    "@leaf/config": "<rootDir>/../libs/config/src",
+    "@leaf/logger/(.*)": "<rootDir>/../libs/logger/src/$1",
+    "@leaf/logger": "<rootDir>/../libs/logger/src",
+    "@leaf/types/(.*)": "<rootDir>/../libs/types/src/$1",
+    "@leaf/types": "<rootDir>/../libs/types/src",
+    "@leaf/mongo/(.*)": "<rootDir>/../libs/mongo/src/$1",
+    "@leaf/mongo": "<rootDir>/../libs/mongo/src",
+    "@leaf/errors/(.*)": "<rootDir>/../libs/errors/src/$1",
+    "@leaf/errors": "<rootDir>/../libs/errors/src",
+    "@leaf/swagger/(.*)": "<rootDir>/../libs/swagger/src/$1",
+    "@leaf/swagger": "<rootDir>/../libs/swagger/src",
+    "@leaf/email/(.*)": "<rootDir>/../libs/email/src/$1",
+    "@leaf/email": "<rootDir>/../libs/email/src",
+    "@leaf/sms/(.*)": "<rootDir>/../libs/sms/src/$1",
+    "@leaf/sms": "<rootDir>/../libs/sms/src",
+    "@leaf/repository/(.*)": "<rootDir>/../libs/repository/src/$1",
+    "@leaf/repository": "<rootDir>/../libs/repository/src"
+  }
+}
